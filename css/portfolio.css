@@ -1,0 +1,29 @@
+#portfolio{
+  background-color: #121212;
+}
+
+h2.display-5{
+  color: #F5F5F5;
+  margin-bottom: 2rem;
+}
+
+p.lead{
+color: #F5F5F5;
+}
+
+p.card-text{
+  color: #F5F5F5;
+}
+
+div.card-body{
+  background-color: #30475E;
+}
+
+div.card{
+  margin-bottom: 3rem;
+}
+
+button.btn-sm{
+  color: #F5F5F5;
+  background-color: #F05454;
+}
