@@ -1,0 +1,291 @@
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+  div.img-div { width: 12.5rem;}
+  h1.display-5{ font-size: 4.5rem; }
+}
+
+@media (max-width: 992px) {
+div.img-div { width: 9.50rem; }
+div.float { float: left;}
+#cta { padding: 10px 80px; }
+div.space{ width: 4.25rem; height: 4.25rem; }
+#skills{ padding:2rem 15% 3.125rem 30px; }
+}
+
+button.navbar-toggler{
+  border: 1px solid #F05454;
+}
+
+button.navbar-toggler:hover{
+  border: 1px solid grey;
+}
+
+h1.display-5{
+  color: #F5F5F5;
+  font-size: 2.5rem;
+}
+
+button.btn-outline{
+  background-color: #F05454;
+  color: #F5F5F5;
+}
+
+
+/* button.navbar-toggler{
+  color: #30475E;
+  background-color: #F05454;
+} */
+
+i.fa-ellipsis-stroke{
+  background-color: #F05454;
+}
+
+#landing{
+  background-color: #121212;
+  padding:3% 15%;
+  color: #F5F5F5;
+}
+
+.navbar{
+  background-color: #121212;
+}
+
+#link{
+  font-size: 0.75rem;
+  color: #F5F5F5;
+}
+
+#link.active{
+  color: #F05454;
+  font-size: 0.75rem;
+}
+
+p{
+  font-size: 0.7375rem;
+  color: grey;
+  line-height: 1.5;
+
+}
+
+#link:hover{
+  color: grey;
+}
+
+
+p.mb-4{
+  color: grey;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+p.lead{
+  font-size: 0.75rem;
+  color: grey;
+  line-height: 1.5;
+}
+
+p.about{
+  padding-left: 0;
+}
+
+span.p{
+  border: 1px solid #F05454;
+  border-radius: 0.625rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  margin-right: 0.3125rem;
+  color: #F5F5F5;
+  font-size: 1rem;
+}
+
+strong{
+  color: #F05454;
+  font-size: 1.875rem;
+}
+
+strong:hover{
+  color: grey
+}
+
+#about{
+  background-color: #30475E;
+  color: #F5F5F5;
+  padding:8% 15% 3% 15%;
+  line-height: 1.5
+  /* padding-left: 200px;
+  padding-right: 200px; */
+}
+
+
+#skills{
+  background-color: #30475E;
+  padding:2rem 15% 3.125rem 15%;
+  color: #F5F5F5;
+}
+
+div.img-div{
+  border: 0.25rem solid #F05454;
+  /* width: 12.50rem; */
+  position: relative;
+  transform: rotate(0);
+  transition: width transform 5s;
+  margin-bottom: 2rem;
+  /* margin-left: 12.5rem; */
+}
+
+div.img-div:hover{
+  width: 14.5rem;
+ transform: rotate(2deg);
+}
+
+img.img{
+  width: 12.50rem;
+  margin: 3.125rem;
+}
+
+div.col-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+h2.lh-1{
+  color: #F5F5F5;
+  /* text-decoration: underline #F5F5F5; */
+  padding-left: 0;
+}
+
+/* div.img{
+  background-color: #F5F5F5;
+} */
+
+div.space{
+background-color: #30475E;
+width: 5.25rem;
+height: 5.25rem;
+/* padding: auto; */
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.space:hover{
+  background-color: #F05454;
+}
+
+img{
+  margin: auto;
+}
+
+#projects{
+  background-color: #121212;
+  padding: 3.125rem 15%;
+  color: #F5F5F5;
+}
+
+/* .feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  fill: currentcolor;
+  transition: transform .25s ease-in-out;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+} */
+
+#cta{
+  background-color: #30475E;
+  color: #F5F5F5;
+  padding-top: 3rem;
+  /* padding: 3% 15%; */
+}
+
+hr.no-margin{
+  margin: 0 0 0 0;
+  color: #F05454;
+}
+
+i{
+  color: #F05454;
+}
+
+i:hover{
+  color: grey;
+}
+
+/* div.album{
+  background-color: #121212;
+} */
+
+div.shadow-sm{
+  background-color: #F5F5F5;
+  box-shadow: 0 0.25rem 0.5px 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  width: 15.625rem;
+  height: 12.5rem;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 3rem;
+}
+
+div.fa-brands:hover{
+  color: #F5F5F5;
+}
+
+textarea.form-control{
+  background-color: #30475E;
+  border: 1px solid grey;
+}
+
+input.form-control{
+ background-color: #30475E;
+ border: 1px solid grey;
+}
+
+
+form{
+  box-sizing: border-box;
+}
+
+button.cta{
+  border: 1px solid #F05454;
+  color: #F5F5F5;
+  background-color: #F05454;
+  text-align: right;
+  margin-bottom: 3rem;
+}
+
+button.btn-sm:hover{
+    background-color: #30475E;
+}
+
+p.end{
+  margin-bottom: 0;
+}
+
+a.bord:hover{
+  color: #F5F5F5;
+}
